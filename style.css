@@ -10,24 +10,32 @@ body {
     font-size: 14px;
     line-height: 1,2;
     font-weight: normal;
-    color: #4E4E4E;
+    color: #000;
+    
+   
 }
 *, *::before, *::after{
     box-sizing: inherit;
 }
-h1,h2,h3,h4,h5,h6 {
+h1,h2,h3,h4,h5,h6, {
     margin: 0;
 }
+
 .wrapper {
+    display: flex;
+    flex-direction: column;
     width: 100%;
-    max-width: 1280px;
+    max-width: 1600px;
     margin: 0 auto;
-    
+    overflow: hidden;
+
 }
 /*-----------Header----------- */
 
 .header {
-    background-color: black;
+    display: flex;
+    position: relative;
+    width: 100%;
     
 }
 .visually-hidden {
@@ -48,6 +56,8 @@ h1,h2,h3,h4,h5,h6 {
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
+    z-index: 50;
 }
 
 .header__list {
@@ -99,3 +109,72 @@ text-decoration: none;
 }
 /* -------Header end---------- */
 
+.main {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column
+}
+.intro {
+    width: 100%;
+    height: 649px;
+    z-index: 10;
+}
+.intro__page {
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 1600px;
+    height: 744px;
+    background-image: url(/webdev/assets/image/bg-image-wrapper.png);
+    background-repeat: no-repeat;
+}
+.intro__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
+}
+.intro__title {
+    font-weight: 700;
+    font-size: 64px;
+    margin: 0;
+    line-height: 74px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    letter-spacing: 4.5px;
+    padding-left: 4px;
+    margin-bottom: 20px;
+}
+
+.intro__subtitle {
+    font-size: 18px;
+    margin: 0;
+    margin-bottom: 30px;
+    line-height: 140%;
+    color: #FFFFFF;
+    max-width: 504px;
+    text-align: center;
+}
+
+.btn-main {
+    width: 184px;
+    height: 46px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #fff;
+    background: #00AFDB;
+    border: 0;
+    margin-bottom: 54px;
+    letter-spacing: -0.7px;
+}
+
+.btn-main:hover {
+    opacity: .8;
+    cursor: pointer
+}
