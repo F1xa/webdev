@@ -180,10 +180,10 @@ text-decoration: none;
     cursor: pointer;
 }
 .socials {
-  width: 170px;
-  height: 20px;
-  margin: 0 auto;
-  padding: 0;
+    width: 170px;
+    height: 20px;
+    margin: 0 auto;
+    padding: 0;
 }
 .social__list {
     display: flex;
@@ -201,3 +201,50 @@ text-decoration: none;
     cursor: pointer;
 }
 /* ------Section intro end------- */
+
+
+/* -----Section Rappresent------- */
+.rapp {
+    display: flex;
+    width: 1600px;
+    height: 842px;
+    background-color: #FFFFFF;
+}
+.rapp__content {
+    width: 407px;
+    height: 233px;
+    padding-top: 295px;
+    margin-left: 269px;
+}
+.rapp__title {
+    width: 367px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: #373737;
+}
+.rapp__subtitle {
+    width: 407px;
+    height: 80px;
+    margin: 0;
+    margin-bottom: 30px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    color: #4E4E4E;
+}
+.rapp__image {
+    padding-top: 120px;
+    margin-left: 248px;
+}
+/* -----Section Rappresent end------- */
+
+/* -----Section Our Community------- */
+
+
+/* -----Section Our Community end------- */
