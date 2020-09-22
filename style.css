@@ -128,7 +128,7 @@ text-decoration: none;
     flex-direction: column;
     width: 1600px;
     height: 744px;
-    background-image: url(./webdev/assets/image/bg-image-wrapper.png);
+    background-image: url('./assets/image/bg-image-wrapper.png');
     background-repeat: no-repeat;
 }
 .intro__content {
