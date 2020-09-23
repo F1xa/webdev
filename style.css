@@ -367,3 +367,58 @@ text-decoration: none;
 /* ----Section implement end-------- */
 
 
+/* ------Sign up----------- */
+.signup {
+    display: flex;
+    justify-content: center;
+    width: 1600px;
+    height: 524px;
+    background-image: url(./assets/signup/signup.jpg);
+    background-repeat: no-repeat;
+}
+
+.signup__form {
+  width: 406px;
+  height: 104px;
+  margin: 200px 0 0 0;
+  padding: 0;
+  font-size: 0;
+}
+.signup__title {
+    margin: 0;
+    margin: 0 0 30px 0;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.signup__mail {
+    display: inline-block;
+    width: 340px;
+    height: 46px;
+    width: 340px;
+    height: 46px;
+    padding: 13px 24px 13px 24px;
+    border: 0;
+    outline: 0;
+}
+
+.signup__mail::placeholder{
+    font-weight: normal;
+    font-size: 14px;
+    color: #373737;
+    opacity: 0.5;
+}
+
+.signup__submit {
+  display: inline-block;
+  width: 66px;
+  height: 46px;
+  background: #00AFDB;
+  border: 0;
+  padding: 0;
+}
+
+/* ------Sign up end----------- */
