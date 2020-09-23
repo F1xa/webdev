@@ -208,7 +208,7 @@ text-decoration: none;
     display: flex;
     width: 1600px;
     height: 842px;
-    background-color: #FFFFFF;
+    background: #FFFFFF;
 }
 .rapp__content {
     width: 407px;
@@ -244,7 +244,84 @@ text-decoration: none;
 }
 /* -----Section Rappresent end------- */
 
+
 /* -----Section Our Community------- */
+.community {
+    position: relative;
+    width: 1600px;
+    height: 504px;
+    background: #F5F6F7;
+    overflow: hidden;
+}
+.community-nav {
+    position: absolute;
+    display: flex;
+    top: 82px;
+    right: 258px
+}
+.community-nav span {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 100%;
+    color: #373737;
+}
+.community-nav__item {
+    padding: 0 2px;
+}
+.community-nav img {
+    margin: 0 10px;
+}
+.community-nav img:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+.community-content {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 298px;
+    height: 175px;
+    top: 155px;
+    left: 269px;
+}
+.community__icon {
+    width: 45px;
+    height: 45px;
+    margin-bottom: 20px;
+}
+.community-content__title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    margin: 0 0 10px 0;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    color: #373737;
+}
+.community-content__subtitle {
+    font-weight: normal;
+    font-size: 14px;
+    margin: 0 0 10px 0;
+    line-height: 20px;
+    text-align: center;
+    color: #4E4E4E;
+}
+.community-slider {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 120px;
+    left: 706px;
+    
+}
+.community__slider-item {
+    margin-right: 30px;
+    width: 407px;
+    height: 244px
 
-
+}
+    
 /* -----Section Our Community end------- */
